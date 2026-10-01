@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10100f">
+  <meta name="description" content="Selected films and edits by Your Name, video editor and content creator.">
+  <title>Your Name — Video Editor &amp; Content Creator</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Mono:wght@400;500&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header" id="top">
+    <nav class="nav shell" aria-label="Main navigation">
+      <a class="brand" href="#top" aria-label="Your Name home">YN<span>®</span></a>
+      <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-label="Open navigation"><span></span><span></span></button>
+      <div class="nav-links" id="navLinks"><a href="#work">Work</a><a href="#about">About</a><a href="#contact">Contact</a></div>
+      <a class="nav-contact" href="#contact">Let’s work together <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home" aria-labelledby="heroTitle">
+      <div class="hero-image" role="img" aria-label="Cinematic landscape at dusk"></div>
+      <div class="hero-grain" aria-hidden="true"></div>
+      <div class="hero-content shell">
+        <p class="hero-kicker"><span class="live-dot"></span> INDEPENDENT CREATIVE · AVAILABLE FOR SELECT PROJECTS</p>
+        <h1 id="heroTitle">IMAD</h1>
+        <p class="hero-role">VIDEO EDITOR <i>×</i> CONTENT CREATOR</p>
+        <p class="hero-tagline">I turn good footage into <em>stories that stay.</em></p>
+        <div class="hero-actions"><a class="button button-light" href="#work">View my work <span aria-hidden="true">↓</span></a><a class="button button-glass" href="#contact">Contact me <span aria-hidden="true">↗</span></a></div>
+        <div class="hero-bottom"><span>BASED IN CASABLANCA · WORKING EVERYWHERE</span><button class="sound-toggle" id="heroPlay" type="button"><span class="sound-icon">▶</span> PLAY SHOWREEL</button><span>2026 REEL</span></div>
+      </div>
+      <div class="hero-portrait"><img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=1000&q=85" alt="Profile photo placeholder; replace with your own portrait"><span>YOUR NAME · VIDEO EDITOR</span></div>
+      <a class="hero-scroll" href="#work" aria-label="Scroll to video work"><span></span></a>
+    </section>
+
+    <section class="work-section section" id="work">
+      <div class="shell">
+        <div class="section-top work-top"><div><p class="eyebrow">THE EDIT ROOM</p><h2>Selected <em>work</em></h2></div><p class="work-intro">Different formats. Different moods.<br>Always in service of the story.</p></div>
+        <div class="filter-bar" id="filterBar" role="group" aria-label="Filter videos"></div>
+        <div class="work-grid" id="workGrid" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section class="about-section section" id="about">
+      <div class="shell about-layout">
+        <div class="about-image-wrap"><img src="https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1100&q=85" alt="An edit suite ready for the next story" loading="lazy"><span class="image-caption">BEHIND THE CUT · 01</span><span class="about-index">STORY FIRST.</span></div>
+        <div class="about-copy"><p class="eyebrow">A LITTLE ABOUT ME</p><h2>Every frame has<br>a <em>feeling.</em></h2><p class="about-lead">I’m Your Name, a video editor and content creator who believes the best edit is the one you feel before you notice.</p><p class="about-body">I shape footage into clear, considered stories, from short-form social content to cinematic brand films. My process is collaborative, detail-minded, and always led by the rhythm of the story.</p><p class="about-body">I’m building a body of work with people who care about what they put into the world. The next good story could be yours.</p><div class="about-facts"><div><span>EXPERIENCE</span><strong>Replace with your years</strong></div><div><span>BASED IN</span><strong>Casablanca, Morocco</strong></div><div><span>MAKING</span><strong>Stories with feeling</strong></div></div></div>
+      </div>
+    </section>
+
+    <section class="contact-section section" id="contact">
+      <div class="shell contact-layout"><div class="contact-copy"><p class="eyebrow">HAVE A STORY IN MIND?</p><h2>Let’s make<br>something <em>matter.</em></h2><p>Tell me what you’re working on. I’ll bring the edit; we’ll find the feeling together.</p><div class="contact-links" id="socialLinks"></div><a class="contact-email" id="emailLink" href="mailto:hello@example.com">hello@example.com <span>↗</span></a></div></div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="shell footer-top"><a class="brand" href="#top">YN<span>®</span></a><p>Video Editor &amp; Content Creator</p><div class="footer-nav"><a href="#work">Work</a><a href="#about">About</a><a href="#contact">Contact</a></div><a class="back-top" href="#top">BACK TO TOP ↑</a></div><div class="shell footer-bottom"><span>© <span id="year"></span> Your Name. All rights reserved.</span><span>MADE FRAME BY FRAME</span></div></footer>
+
+  <dialog class="video-modal" id="videoModal" aria-label="Video player"><div class="player-top"><span id="playerTitle">Now playing</span><button class="player-close" id="playerClose" type="button" aria-label="Close video">✕</button></div><div class="player-stage" id="playerStage"></div></dialog>
+</body>
+</html>
