@@ -1,13 +1,12 @@
 // PERSONALIZE: update name, email, phone, and social URLs here. No real contact details were provided.
 const PROFILE = {
-  name: 'Your Name',
-  email: 'hello@example.com',
+  name: 'elyamani imad',
+  email: 'elyamani@gmail.com',
   phone: '+212 600 000 000',
   socials: [
-    { label: 'INSTAGRAM', url: 'https://instagram.com/yourname' },
-    { label: 'TIKTOK', url: 'https://tiktok.com/@yourname' },
+    { label: 'INSTAGRAM', url: 'https://instagram.com/imad_elyamani' },
     { label: 'WHATSAPP', url: 'https://wa.me/212600000000' },
-    { label: 'LINKEDIN', url: 'https://linkedin.com/in/yourname' },
+
   ],
 };
 
@@ -17,64 +16,115 @@ const PROFILE = {
 // Categories: Reels, TikTok, Instagram, YouTube, Cinematic, Short Films, Ads, Social Media, Other.
 const PROJECTS = [
   {
-    id: 'after-the-light', featured: true, title: 'After the Light',
-    description: 'A study in quiet moments, movement, and the last light of day.',
-    type: 'file', video: 'videos/after-the-light.mp4',
-    thumbnail: 'https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&fit=crop&w=1400&q=85',
-    categories: ['Cinematic', 'Instagram'], date: '2026', software: 'Premiere Pro · DaVinci Resolve',
+    id: 'shormovie-ep1', featured: false, title: 'Shormovie Ep1',
+    description: 'A short film.',
+    type: 'file', video: 'videos/ShormovieEp1.mp4',
+    thumbnail: 'images/short_movies.jpg',
+    categories: ['Short Film'], date: '2023', software: '',
   },
   {
-    id: 'the-open-road', featured: true, title: 'The Open Road',
+    id: 'shortmovie-ep2', featured: false, title: 'Shortmovie Ep2',
+    description: 'Short movie episode 2.',
+    type: 'file', video: 'videos/ShortmovieEp2.mp4',
+    thumbnail: 'images/short_movies.jpg',
+    categories: ['Short Film'], date: '2023', software: '',
+  },
+  {
+    id: 'shortmovie-ep3', featured: false, title: 'Shortmovie Ep3',
+    description: 'Short movie episode 3.',
+    type: 'file', video: 'videos/ShortmovieEp3.mp4',
+    thumbnail: 'images/short_movies.jpg',
+    categories: ['Short Film'], date: '2023', software: '',
+  },
+  {
+    id: 'shortmovie-ep4', featured: false, title: 'Shortmovie Ep4',
+    description: 'Short movie episode 4.',
+    type: 'file', video: 'videos/ShortmovieEp4.mp4',
+    thumbnail: 'images/short_movies.jpg',
+    categories: ['Short Film'], date: '2025', software: '',
+  },
+  {
+    id: 'shortmovie-ep6', featured: false, title: 'Shortmovie Ep6',
+    description: 'Short movie episode 6.',
+    type: 'file', video: 'videos/ShortmovieEp6.mp4',
+    thumbnail: 'images/short_movies.jpg',
+    categories: ['Short Film'], date: '2025', software: '',
+  },
+  {
+    id: 'shortmovie-ep7', featured: false, title: 'Shortmovie Ep7',
+    description: 'Short movie episode 7.',
+    type: 'file', video: 'videos/ShortmovieEp7.mp4',
+    thumbnail: 'images/short_movies.jpg',
+    categories: ['Short Film'], date: '2025', software: '',
+  },
+  {
+    id: 'shortmovie-ep8', featured: false, title: 'Shortmovie Ep8',
+    description: 'Short movie episode 8.',
+    type: 'file', video: 'videos/ShortmovieEp8.mp4',
+    thumbnail: 'images/short_movies.jpg',
+    categories: ['Short Film'], date: '2026', software: '',
+  },
+    {
+    id: 'shortmovie-ep9', featured: false, title: 'Shortmovie Ep9',
+    description: 'Short movie episode 9.',
+    type: 'file', video: 'videos/ShortmovieEp9.mp4',
+    thumbnail: 'images/short_movies.jpg',
+    categories: ['Short Film'], date: '2026', software: '',
+  },
+  {
+    id: 'runnig-ep1', featured: true, title: 'running Ep1',
     description: 'A short travel film made for the feeling of getting somewhere new.',
-    type: 'file', video: 'videos/the-open-road.mp4',
-    thumbnail: 'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=85',
-    categories: ['Short Films', 'YouTube'], date: '2025', software: 'Premiere Pro',
+    type: 'file', video: 'videos/RunningserieDay1.mp4',
+    thumbnail: 'images/running_series.jpeg',
+    categories: ['Running series'], date: '2025', software: 'Premiere Pro',
+  },
+   {
+    id: 'runnig-ep2', featured: true, title: 'running Ep2',
+    description: 'A short travel film made for the feeling of getting somewhere new.',
+    type: 'file', video: 'videos/RunningserieDay2.mp4',
+    thumbnail: 'images/running_series.jpeg',
+    categories: ['Running series'], date: '2025', software: 'Premiere Pro',
   },
   {
-    id: 'small-hours', featured: true, title: 'The Small Hours',
-    description: 'Night streets, natural sound, and a little room to breathe.',
-    type: 'file', video: 'videos/the-small-hours.mp4',
-    thumbnail: 'https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=1200&q=85',
-    categories: ['Cinematic', 'Short Films'], date: '2025', software: 'DaVinci Resolve',
+    id: 'runnig-ep3', featured: true, title: 'running Ep3',
+    description: 'A short travel film made for the feeling of getting somewhere new.',
+    type: 'file', video: 'videos/RunningserieDay3.mp4',
+    thumbnail: 'images/running_series.jpeg',
+    categories: ['Running series'], date: '2025', software: 'Premiere Pro',
   },
   {
-    id: 'studio-notes', featured: false, title: 'Studio Notes — Episode 01',
-    description: 'A warm, quick-cut introduction to the people behind the work.',
-    type: 'file', video: 'videos/studio-notes.mp4',
-    thumbnail: 'https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1000&q=82',
-    categories: ['Reels', 'Instagram', 'Social Media'], date: '2025', software: 'Premiere Pro · After Effects',
+    id: 'runnig-ep4', featured: true, title: 'running Ep4',
+    description: 'A short travel film made for the feeling of getting somewhere new.',
+    type: 'file', video: 'videos/RunningserieDay4.mp4',
+    thumbnail: 'images/running_series.jpeg',
+    categories: ['Running series'], date: '2025', software: 'Premiere Pro',
   },
   {
-    id: 'the-good-thing', featured: false, title: 'The Good Thing',
-    description: 'A concise product story with a bright, tactile finish.',
-    type: 'youtube', video: 'https://www.youtube.com/watch?v=ScMzIvxBSi4',
-    thumbnail: 'https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1000&q=82',
-    categories: ['Ads', 'Social Media', 'Instagram'], date: '2025', software: 'DaVinci Resolve',
+    id: 'runnig-ep5', featured: true, title: 'running Ep5',
+    description: 'A short travel film made for the feeling of getting somewhere new.',
+    type: 'file', video: 'videos/RunningserieDay5.mp4',
+    thumbnail: 'images/running_series.jpeg',
+    categories: ['Running series'], date: '2025', software: 'Premiere Pro',
   },
   {
-    id: 'one-minute-away', featured: false, title: 'One Minute Away',
-    description: 'A quick portrait cut built for the vertical frame.',
-    type: 'file', video: 'videos/one-minute-away.webm',
-    thumbnail: 'https://images.unsplash.com/photo-1533929736458-ca588d08c8be?auto=format&fit=crop&w=1000&q=82',
-    categories: ['TikTok', 'Reels', 'Social Media'], date: '2024', software: 'CapCut · Premiere Pro',
+    id: 'LifeStyle-ep1', featured: true, title: 'LifeStyle Ep1',
+    description: 'A study in quiet moments, movement, and the last light of day.',
+    type: 'file', video: 'videos/InstaLifeStyle1.mp4',
+    thumbnail: 'images/lifestyle.jpeg',
+    categories: ['Life style'], date: '2026', software: 'Premiere Pro · DaVinci Resolve',
   },
   {
-    id: 'made-by-hand', featured: false, title: 'Made by Hand',
-    description: 'A slower look at the gestures and materials behind the craft.',
-    type: 'vimeo', video: 'https://vimeo.com/76979871',
-    thumbnail: 'https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=1000&q=82',
-    categories: ['Cinematic', 'Ads'], date: '2024', software: 'DaVinci Resolve · Audition',
+    id: 'LifeStyle-ep2', featured: true, title: 'LifeStyle Ep2',
+    description: 'A short travel film made for the feeling of getting somewhere new.',
+    type: 'file', video: 'videos/InstaLifeStyle2.mp4',
+    thumbnail: 'images/lifestyle.jpeg',
+    categories: ['Life style'], date: '2026', software: 'Premiere Pro · DaVinci Resolve',
   },
-  {
-    id: 'somewhere-between', featured: false, title: 'Somewhere Between',
-    description: 'A small visual experiment in pace, texture, and music.',
-    type: 'file', video: 'videos/somewhere-between.mp4',
-    thumbnail: 'https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=1000&q=82',
-    categories: ['Other', 'Cinematic'], date: '2024', software: 'Premiere Pro',
-  },
+
+  
 ];
 
-const CATEGORIES = ['All work', 'Reels', 'TikTok', 'Instagram', 'YouTube', 'Cinematic', 'Short Films', 'Ads', 'Social Media', 'Other'];
+const CATEGORIES = ['All work','Short Film', 'Running series', 'Life style'];
 const FEATURED_LIMIT = 3;
 let activeCategory = 'All work';
 let toastTimer;
