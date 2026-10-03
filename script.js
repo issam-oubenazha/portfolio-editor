@@ -1,11 +1,11 @@
 // PERSONALIZE: update name, email, phone, and social URLs here. No real contact details were provided.
 const PROFILE = {
   name: 'elyamani imad',
-  email: 'elyamani@gmail.com',
-  phone: '+212 600 000 000',
+  email: 'imadelyamani33@gmail.com',
+  phone: '+212 780407255',
   socials: [
     { label: 'INSTAGRAM', url: 'https://instagram.com/imad_elyamani' },
-    { label: 'WHATSAPP', url: 'https://wa.me/212600000000' },
+    { label: 'WHATSAPP', url: 'https://wa.me/212690064477' },
 
   ],
 };
@@ -41,35 +41,35 @@ const PROJECTS = [
     description: 'Short movie episode 4.',
     type: 'file', video: 'videos/ShortmovieEp4.mp4',
     thumbnail: 'images/short_movies.jpg',
-    categories: ['Short Film'], date: '2025', software: '',
+    categories: ['Short Film'], date: '2023', software: '',
   },
   {
     id: 'shortmovie-ep6', featured: false, title: 'Shortmovie Ep6',
     description: 'Short movie episode 6.',
     type: 'file', video: 'videos/ShortmovieEp6.mp4',
     thumbnail: 'images/short_movies.jpg',
-    categories: ['Short Film'], date: '2025', software: '',
+    categories: ['Short Film'], date: '2023', software: '',
   },
   {
     id: 'shortmovie-ep7', featured: false, title: 'Shortmovie Ep7',
     description: 'Short movie episode 7.',
     type: 'file', video: 'videos/ShortmovieEp7.mp4',
     thumbnail: 'images/short_movies.jpg',
-    categories: ['Short Film'], date: '2025', software: '',
+    categories: ['Short Film'], date: '2023', software: '',
   },
   {
     id: 'shortmovie-ep8', featured: false, title: 'Shortmovie Ep8',
     description: 'Short movie episode 8.',
     type: 'file', video: 'videos/ShortmovieEp8.mp4',
     thumbnail: 'images/short_movies.jpg',
-    categories: ['Short Film'], date: '2026', software: '',
+    categories: ['Short Film'], date: '2023', software: '',
   },
     {
     id: 'shortmovie-ep9', featured: false, title: 'Shortmovie Ep9',
     description: 'Short movie episode 9.',
     type: 'file', video: 'videos/ShortmovieEp9.mp4',
     thumbnail: 'images/short_movies.jpg',
-    categories: ['Short Film'], date: '2026', software: '',
+    categories: ['Short Film'], date: '2023', software: '',
   },
   {
     id: 'runnig-ep1', featured: true, title: 'running Ep1',
